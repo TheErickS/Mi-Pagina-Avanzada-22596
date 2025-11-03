@@ -1,0 +1,79 @@
+/* Estilos Globales */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #111;
+}
+
+/* Tema oscuro */
+.dark {
+    background: #111;
+    color: white;
+}
+
+.header {
+    background: #1e1e1e;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.header button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 8px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sobre-mi, .servicios, .contacto {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.dark .card {
+    background: #222;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+form input, form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
